@@ -279,7 +279,7 @@ function obtenerContenidoTicket() {
   var saldoUsuario = localStorage.getItem('saldo');
 
   // Aquí puedes generar dinámicamente el contenido del ticket
-  // Puedes incluir texto, variables, estilos, etc.
+ // impresion de nuestro ticket de retiros 
   var contenido = `
     <h1 id="Datos">Ticket de Retiro</h1>
     <hr style= "3px solid black">
